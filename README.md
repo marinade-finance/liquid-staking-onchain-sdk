@@ -1,2 +1,24 @@
-# liquid-staking-onchain-sdk
-To facilitate integrating Marinade's Liquid Staking program from your own Solana program
+# liquid-staking-referral-program
+Wrapper functions over the liquid-staking-program main stake/unstake functions. Allows referrals from partners providing Marinade liquid-staking as a service to their users
+
+Design doc: https://docs.google.com/document/d/1aXq3oEBF-cAXJpF_ubteaI-4oYV8wkk2E8hdTRjti2g/edit#heading=h.xaz348hsh3eq (Google doc, request access please)
+
+## Installation
+```bash
+yarn install
+```
+
+## Build program
+```bash
+anchor build
+```
+
+## Test program
+```bash
+anchor test
+```
+
+## Auto fix lint errors
+```bash
+yarn lint
+```
