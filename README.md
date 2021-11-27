@@ -1,21 +1,8 @@
-# liquid-staking-referral-program
+# Marinade Finance on-chain SDK
 
-## Installation
-```bash
-yarn install
+This Rust lib will simplify integrating marinade-finance/liquid-staking-program from your Solana program via CPI calls
+## Usage
+add to your .toml file
 ```
-
-## Build program
-```bash
-anchor build
-```
-
-## Test program
-```bash
-anchor test
-```
-
-## Auto fix lint errors
-```bash
-yarn lint
+marinade = { git = "https://github.com/marinade-finance/liquid-staking-onchain-sdk" }
 ```
