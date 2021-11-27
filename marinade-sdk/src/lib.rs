@@ -37,11 +37,6 @@ pub mod marinade_finance_sdk {
         validator_system::ValidatorRecord,
     };
 
-
-    //  pub mod update_cooling_down;  //TODO
- 
- 
-
     pub struct InitializeInput {
         pub state: Pubkey,
         pub stake_list: Pubkey,
@@ -89,35 +84,6 @@ pub mod marinade_finance_sdk {
         }
     }
 }
-    ///register refer code to referral program
-    // pub fn initialize(
-    //     ctx: Context<Initialize>,
-    //     ref_code: String,
-    //     referral_bump: u8,
-    //     beneficiary_bump: u8,
-    // ) -> ProgramResult {
-    //     process_initialize(ctx, ref_code, referral_bump, beneficiary_bump)
-    // }
-
-    // ///update admin
-    // pub fn update_partner(ctx: Context<UpdatePartner>) -> ProgramResult {
-    //     process_update_partner(ctx)
-    // }
-
-    // ///update referral emergency pause
-    // pub fn pause(ctx: Context<Pause>, pause: bool) -> ProgramResult {
-    //     process_pause(ctx, pause)
-    // }
-
-    // ///deposit SOL
-    // pub fn deposit(ctx: Context<Deposit>, lamports: u64) -> ProgramResult {
-    //     process_deposit(ctx, lamports)
-    // }
-
-    // ///liquid-unstake mSOL
-    // pub fn liquid_unstake(ctx: Context<LiquidUnstake>, msol_amount: u64) -> ProgramResult {
-    //     process_liquid_unstake(ctx, msol_amount)
-    // }
-
+ 
     #![cfg_attr(not(debug_assertions), deny(warnings))]
 }

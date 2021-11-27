@@ -1,12 +1,12 @@
 [package]
-name = "marinade-referral"
+name = "marinade-finance-sdk"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2018"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "marinade_referral"
+name = "marinade__finance_sdk"
 
 [features]
 no-entrypoint = []
