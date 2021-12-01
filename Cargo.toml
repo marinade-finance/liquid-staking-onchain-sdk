@@ -4,6 +4,10 @@ version = "0.1.0"
 description = "Marinade Finance Onchain SDK"
 edition = "2018"
 
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "liquid_staking_onchain_sdk"
+
 [dependencies]
 anchor-lang = "0.14.0"
 anchor-spl = "0.14.0"
