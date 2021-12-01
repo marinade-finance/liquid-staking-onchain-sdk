@@ -1,5 +1,5 @@
 [package]
-name = "marinade-finance-onchain-sdk"
+name = "liquid-staking-onchain-sdk"
 version = "0.1.0"
 description = "Marinade Finance Onchain SDK"
 edition = "2018"

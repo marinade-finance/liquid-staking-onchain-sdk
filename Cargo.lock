@@ -660,6 +660,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "liquid-staking-onchain-sdk"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+ "anchor-spl",
+ "marinade-finance",
+]
+
+[[package]]
 name = "log"
 version = "0.4.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -677,15 +686,6 @@ dependencies = [
  "anchor-spl",
  "bincode",
  "spl-token",
-]
-
-[[package]]
-name = "marinade-finance-onchain-sdk"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
- "anchor-spl",
- "marinade-finance",
 ]
 
 [[package]]

@@ -4,5 +4,5 @@ This Rust lib will simplify integrating marinade-finance/liquid-staking-program 
 ## Usage
 add to your .toml file
 ```
-marinade = { git = "https://github.com/marinade-finance/liquid-staking-onchain-sdk" }
+liquid-staking-onchain-sdk = { git = "https://github.com/marinade-finance/liquid-staking-onchain-sdk" }
 ```
