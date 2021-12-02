@@ -9,8 +9,8 @@ crate-type = ["cdylib", "lib"]
 name = "liquid_staking_onchain_sdk"
 
 [dependencies]
-anchor-lang = "0.14.0"
-anchor-spl = "0.14.0"
+anchor-lang = "0.18.2"
+anchor-spl = "0.18.2"
 marinade-finance = { git = "https://github.com/marinade-finance/liquid-staking-program" }
 
 [features]
