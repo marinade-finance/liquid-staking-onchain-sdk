@@ -25,7 +25,7 @@ use marinade_finance::{
 
 
 
-pub mod liquid_staking_onchain_sdk {
+// pub mod liquid_staking_onchain_sdk {
 
     use super::*;
 /// Deposit SOL into Marinade and deliver mSOL to the user
@@ -270,4 +270,4 @@ pub fn claim(
         data: data.data(),
     }
 }
-}
+// }
