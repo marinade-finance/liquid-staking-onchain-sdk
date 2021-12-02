@@ -24,10 +24,6 @@ use marinade_finance::{
 };
 
 
-
-// pub mod liquid_staking_onchain_sdk {
-
-    use super::*;
 /// Deposit SOL into Marinade and deliver mSOL to the user
 /// This can be viewed also as: SWAP SOL->mSOL with zero fee
 /// Before the end of the epoch, the bot will stake or unstake based on the delta from deposit vs unstakes
@@ -270,4 +266,3 @@ pub fn claim(
         data: data.data(),
     }
 }
-// }
