@@ -6,8 +6,8 @@ edition = "2018"
 repository = "https://github.com/marinade-finance/liquid-staking-onchain-sdk"
 
 [dependencies]
-anchor-lang = "^0.14.0"
-anchor-spl = "^0.14.0"
+anchor-lang = "0.14.0"
+anchor-spl = "0.14.0"
 marinade-finance = { git = "https://github.com/marinade-finance/liquid-staking-program" }
 
 [features]
